@@ -1,0 +1,40 @@
+.contenedor-sobre-nosotros{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 30px;
+}
+
+.titulo{
+    text-align: center;
+    font-size: 30px;
+    color:blue;
+    margin-bottom: 60px;
+
+}
+
+.imagen-about{
+    width: 48%;
+
+}
+
+.sobre-nosotros .contenido-texto{
+    width: 48%;
+    text-align: justify;
+}
+
+.contenido-texto h3 span{
+    background: #4d0686;
+    color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    padding: 2px;
+    box-shadow:  0 0 6px 0 rgba( 0, 0, 0, .5);
+    margin-right: 5px;
+}
+
+.contenido-texto p{
+    padding: 0px 0px 30px 15px;
+}
